@@ -1,0 +1,99 @@
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frameLayoutContent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Giao diện loading -->
+    <include layout="@layout/layout_loading" />
+
+
+
+    <LinearLayout
+        android:id="@+id/recipe_detail_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/recipe_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"
+                    android:layout_margin="8dp"
+                    android:src="@drawable/ic_launcher_foreground"/>
+
+                <TextView
+                    android:id="@+id/food_recipe_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:padding="16dp"
+                    android:text="food name"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/recipe_summary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:padding="16dp"
+                    android:text="summary"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/food_recycler_instruction"
+                    android:layout_margin="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"/>
+
+<!--                <Button-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:id="@+id/btn_instructions"-->
+<!--                    android:layout_margin="8dp"-->
+<!--                    android:padding="16dp"-->
+<!--                    android:text="Get Instructions"-->
+<!--                    android:textSize="16sp"-->
+<!--                    android:textColor="@color/white"-->
+<!--                    android:textStyle="bold"-->
+<!--                    />-->
+
+                <TextView
+                    android:id="@+id/txt_ingredients"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:padding="16dp"
+                    android:layout_margin="8dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="Ingredients" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/food_recycler_ingredients"
+                    android:layout_margin="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>
+

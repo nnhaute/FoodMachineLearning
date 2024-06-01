@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "479362819109",
+    "project_id": "machine-learning-d3288",
+    "storage_bucket": "machine-learning-d3288.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479362819109:android:8f8646b008849bf7474bcc",
+        "android_client_info": {
+          "package_name": "hcmute.edu.vn.foodmachinelearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479362819109-hca3hj1cd93527evno60e3o4fnslb6p1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd9WPVhn8MbHaA9Tsk_A20xuzws511w-g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479362819109-hca3hj1cd93527evno60e3o4fnslb6p1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479362819109:android:e6ed24c94503ca0a474bcc",
+        "android_client_info": {
+          "package_name": "hcmute.edu.vn.mobiledeeplearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479362819109-hca3hj1cd93527evno60e3o4fnslb6p1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd9WPVhn8MbHaA9Tsk_A20xuzws511w-g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479362819109-hca3hj1cd93527evno60e3o4fnslb6p1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
